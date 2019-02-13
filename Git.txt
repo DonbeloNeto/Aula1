@@ -1,0 +1,249 @@
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ ls
+Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ git config --global user.name "DonbeloNeto"
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ git config  user.name
+DonbeloNeto
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ git config --global user.email "domeloneto@gmail.com"
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ git config  user.email
+domeloneto@gmail.com
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ git init
+Initialized empty Git repository in C:/Users/Domel/Trabalho/Android/Freestyle/.git/
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ ls
+Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ ls -lh
+total 0
+-rw-r--r-- 1 Domel 197609 0 fev 12 14:47 Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ ls -lha
+total 8,0K
+drwxr-xr-x 1 Domel 197609 0 fev 12 15:09 ./
+drwxr-xr-x 1 Domel 197609 0 fev 12 14:47 ../
+drwxr-xr-x 1 Domel 197609 0 fev 12 15:09 .git/
+-rw-r--r-- 1 Domel 197609 0 fev 12 14:47 Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ rm Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ ls
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ rm ./git
+rm: cannot remove './git': No such file or directory
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ rm -r ./git
+rm: cannot remove './git': No such file or directory
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ rm .git
+rm: cannot remove '.git': Is a directory
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ rm -r .git
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ ls -lhga
+total 4,0K
+drwxr-xr-x 1 197609 0 fev 12 15:19 ./
+drwxr-xr-x 1 197609 0 fev 12 14:47 ../
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ ls -lha
+total 4,0K
+drwxr-xr-x 1 Domel 197609 0 fev 12 15:19 ./
+drwxr-xr-x 1 Domel 197609 0 fev 12 14:47 ../
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ touch.exe Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ ls
+Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
+$ git init
+Initialized empty Git repository in C:/Users/Domel/Trabalho/Android/Freestyle/.git/
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ ls -lha
+total 8,0K
+drwxr-xr-x 1 Domel 197609 0 fev 12 15:22 ./
+drwxr-xr-x 1 Domel 197609 0 fev 12 14:47 ../
+drwxr-xr-x 1 Domel 197609 0 fev 12 15:22 .git/
+-rw-r--r-- 1 Domel 197609 0 fev 12 15:21 Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Aula1.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ history
+    1  ls
+    2  git config --global user.name "DonbeloNeto"
+    3  git config  user.name
+    4  git config --global user.email "domeloneto@gmail.com"
+    5  git config  user.email
+    6  git init
+    7  ls
+    8  ls -lh
+    9  ls -lha
+   10  rm Aula1.md
+   11  ls
+   12  rm ./git
+   13  rm -r ./git
+   14  rm .git
+   15  rm -r .git
+   16  ls -lhga
+   17  ls -lha
+   18  touch.exe Aula1.md
+   19  ls
+   20  git init
+   21  ls -lha
+   22  git status
+   23  history
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ !3
+git config  user.name
+DonbeloNeto
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ ~history | grap user
+bash: ~history: command not found
+bash: grap: command not found
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ history | grap user
+bash: grap: command not found
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ history | grep user
+    2  git config --global user.name "DonbeloNeto"
+    3  git config  user.name
+    4  git config --global user.email "domeloneto@gmail.com"
+    5  git config  user.email
+   24  git config  user.name
+   25  ~history | grap user
+   26  history | grap user
+   27  history | grep user
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Aula1.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git add Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Aula1.md
+
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git commit .m "Initial commit"
+error: pathspec '.m' did not match any file(s) known to git
+error: pathspec 'Initial commit' did not match any file(s) known to git
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 519d5c9] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Aula1.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git add Aula1.md
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Aula1.md
+
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git commit -m "Segunda alteração"
+[master edfe254] Segunda alteração
+ 1 file changed, 1 insertion(+)
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git log
+commit edfe254fe8e1855716dd78bbd8e702a70e189dfe (HEAD -> master)
+Author: DonbeloNeto <domeloneto@gmail.com>
+Date:   Tue Feb 12 15:53:34 2019 +0100
+
+    Segunda alteração
+
+commit 519d5c9c6d861671c96b879827577f4b4c18d110
+Author: DonbeloNeto <domeloneto@gmail.com>
+Date:   Tue Feb 12 15:47:32 2019 +0100
+
+    Initial commit
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$
