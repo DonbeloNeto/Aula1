@@ -1,3 +1,5 @@
+12/02/2019
+
 
 Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle
 $ ls
@@ -247,3 +249,85 @@ Date:   Tue Feb 12 15:47:32 2019 +0100
 
 Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
 $
+
+
+#####################################################################################################
+
+
+12/02/2019
+
+
+
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git add Git.txt
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git commit -m "Apresentacao "
+[master b3dc651] Apresentacao
+ 1 file changed, 249 insertions(+)
+ create mode 100644 Git.txt
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git remote add origin https://github.com/DonbeloNeto/Aula1.git
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git push -u origin master
+
+
+
+
+
+
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$ git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 1.88 KiB | 137.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/DonbeloNeto/Aula1.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Domel@DESKTOP-57HKR8H MINGW64 ~/Trabalho/Android/Freestyle (master)
+$
+
