@@ -117,6 +117,108 @@ ou
 ###################################################
 
 
+# Listas não-ordenadas
+
+## 1º Exemplo
+* Item 1
+* Item 2
+* Item 3
+
+## 2º Exemplo
+- Item 1
+- Item 2
+- Item 3
+
+## 3º Exemplo
++ Item 1
++ Item 2
++ Item 3
+
+## 1º Exemplo
+* Item 1
+    + Subitem 1
+    + Subitem 2
+    + Subitem 3
+* Item 2
+    * Subitem 1
+    * Subitem 2
+    * Subitem 3
++ Item 3
+    - Subitem 1
+    - Subitem 2
+    - Subitem 3
+
+
+
+#####################################################3
+
 # Listas ordenadas
 
 ## 1º Exemplo
+1. Item 1
+2. Item 2
+3. Item 3
+
+## 2º Exemplo
+1. Item 1
+1. Item 2
+1. Item 3
+
+## 3º Exemplo
+8. Item 1
+5. Item 2
+2. Item 3
+
+## 4º Exemplo
+1994. Brasil
+1998. França
+2002. Brasil
+
+## 5º Exemplo
+1994\. Brasil  
+1998\. França  
+2002\. Brasil
+
+
+
+##########################################################
+
+# Links
+
+## 1º Exemplo
+[Clique Aqui](bukaapp.com)
+
+## 2º Exemplo
+[Clique Aqui](bukaapp.com "BukaApp")
+
+## 3º Exemplo
+[clique-aqui]:(www.google.com)  
+[Clique Aqui][clique-aqui]
+
+
+
+########################################################
+
+# Imagens
+
+## 1º Exemplo
+![Android-Green](\C:\Users\Domel\Trabalho\Android\Freestyle\Android1.png)
+
+## 2º Exemplo
+[imagem]:(/c/Users/Domel/Android2.jpg)
+![Android-Glass][imagem]
+
+
+
+###########################################################
+
+# Imagem com Link
+
+## 1º Exemplo
+[![Android-Foguete](/c/Users/Domel/Android3.png)](bukaapp.com)
+
+## 2º Exemplo
+[image-thumbs]: /c/Users/Domel/Android2.jpg
+[image-url]: bukaapp.com
+
+[![Android-Group][image-thumbs]][image-url]
