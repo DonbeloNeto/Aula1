@@ -186,7 +186,7 @@ ou
 # Links
 
 ## 1º Exemplo
-[Clique Aqui](bukaapp.com)
+[Clique Aqui](www.google.com)
 
 ## 2º Exemplo
 [Clique Aqui](bukaapp.com "BukaApp")
