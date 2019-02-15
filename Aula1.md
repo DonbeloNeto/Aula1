@@ -202,10 +202,10 @@ ou
 # Imagens
 
 ## 1º Exemplo
-![AndroidGreen](/C:/Users\Domel\Trabalho\Android\Freestyle\Android1.png)
+![AndroidGreen](Android1.png)
 
 ## 2º Exemplo
-[imagem]: /C:/Users\Domel\Trabalho\Android\Freestyle\Android2.jpg "Praise the sun!"
+[imagem]: Android2.jpg "Praise the sun!"
 ![Android-Glass][imagem]
 
 
@@ -215,10 +215,10 @@ ou
 # Imagem com Link
 
 ## 1º Exemplo
-[![Android-Foguete](/C:/Users\Domel\Trabalho\Android\Freestyle\Android3.png)](bukaapp.com)
+[![Android-Foguete](Android3.png)](bukaapp.com)
 
 ## 2º Exemplo
-[image-thumbs]: /C:/Users\Domel\Trabalho\Android\Freestyle\Android4.jpg
+[image-thumbs]: Android4.jpg
 [image-url]: bukaapp.com
 
 [![Android-Group][image-thumbs]][image-url]
