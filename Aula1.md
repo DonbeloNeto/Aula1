@@ -202,10 +202,10 @@ ou
 # Imagens
 
 ## 1º Exemplo
-![Android-Green](\C:\Users\Domel\Trabalho\Android\Freestyle\Android1.png)
+![Android-Green](http://www.exemplodeurl.com/logo.png)
 
 ## 2º Exemplo
-[imagem]:(/c/Users/Domel/Android2.jpg)
+[imagem]: https://github.com/urielcaire/learnmd/blob/master/imgs/solaire.gif "Praise the sun!"
 ![Android-Glass][imagem]
 
 
