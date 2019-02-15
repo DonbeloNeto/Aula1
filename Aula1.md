@@ -202,10 +202,10 @@ ou
 # Imagens
 
 ## 1º Exemplo
-![Android-Green](http://www.exemplodeurl.com/logo.png)
+![AndroidGreen](/C:/Users\Domel\Trabalho\Android\Freestyle\Android1.png)
 
 ## 2º Exemplo
-[imagem]: https://github.com/urielcaire/learnmd/blob/master/imgs/solaire.gif "Praise the sun!"
+[imagem]: /C:/Users\Domel\Trabalho\Android\Freestyle\Android2.jpg "Praise the sun!"
 ![Android-Glass][imagem]
 
 
@@ -215,10 +215,10 @@ ou
 # Imagem com Link
 
 ## 1º Exemplo
-[![Android-Foguete](/c/Users/Domel/Android3.png)](bukaapp.com)
+[![Android-Foguete](/C:/Users\Domel\Trabalho\Android\Freestyle\Android3.png)](bukaapp.com)
 
 ## 2º Exemplo
-[image-thumbs]: /c/Users/Domel/Android2.jpg
+[image-thumbs]: /C:/Users\Domel\Trabalho\Android\Freestyle\Android4.jpg
 [image-url]: bukaapp.com
 
 [![Android-Group][image-thumbs]][image-url]
